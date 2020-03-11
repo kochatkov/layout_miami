@@ -1,0 +1,1 @@
+{"version":3,"sources":["section.scss"],"names":[],"mappings":"AAAA;EACE,+BAA+B,EAAA","file":"section.css","sourcesContent":[".section {\n  padding: 104px calc(50% - 470%);\n}\n"]}

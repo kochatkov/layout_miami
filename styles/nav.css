@@ -1,0 +1,35 @@
+.nav {
+  color: white;
+  text-transform: uppercase; }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    list-style: none; }
+  .nav__item {
+    padding: 8px 24px; }
+    .nav__item-active {
+      background-color: rgba(159, 173, 194, 0.1);
+      border-radius: 8px; }
+  .nav__link {
+    text-decoration: none;
+    color: white;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+    .nav__link:hover {
+      color: #9fadc2; }
+  .nav__toggler {
+    display: none; }
+  .nav__toggler-label::before {
+    content: "="; }
+  .nav__toggler:checked + .nav__toggler-label::before {
+    content: "x"; }
+
+@media screen and (max-width: 784px) {
+  .nav__list {
+    display: grid; } }
+
+/*# sourceMappingURL=nav.css.map */

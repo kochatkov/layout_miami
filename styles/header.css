@@ -1,13 +1,3 @@
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400; }
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
 .header {
   height: 700px;
   background-image: url(../images/header.png);
@@ -78,70 +68,4 @@ h1 {
     display: -ms-flexbox;
     display: flex; } }
 
-.nav {
-  color: white;
-  text-transform: uppercase; }
-  .nav__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    list-style: none; }
-  .nav__item {
-    padding: 8px 24px; }
-    .nav__item-active {
-      background-color: rgba(159, 173, 194, 0.1);
-      border-radius: 8px; }
-  .nav__link {
-    text-decoration: none;
-    color: white;
-    -webkit-transition: color 0.3s;
-    transition: color 0.3s; }
-    .nav__link:hover {
-      color: #9fadc2; }
-  .nav__toggler {
-    display: none; }
-  .nav__toggler-label::before {
-    content: "="; }
-  .nav__toggler:checked + .nav__toggler-label::before {
-    content: "x"; }
-
-@media screen and (max-width: 784px) {
-  .nav__list {
-    display: grid; } }
-
-html,
-body,
-ul,
-li,
-button,
-input,
-textarea {
-  margin: 0;
-  padding: 0;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 16px;
-  line-height: 1.5; }
-
-.logo {
-  width: 115px;
-  height: 76px;
-  background-image: url("../images/logo.png");
-  background-size: cover; }
-
-@media screen and (max-width: 784px) {
-  .logo {
-    width: 73px;
-    height: 48px; } }
-
-.footer {
-  height: 359px;
-  background-image: url("../images/footer.png");
-  background-size: cover; }
-
-body {
-  background: #eee; }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=header.css.map */

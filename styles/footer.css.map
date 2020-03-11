@@ -1,0 +1,1 @@
+{"version":3,"sources":["footer.scss"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,6CAA6C;EAC7C,sBAAsB,EAAA","file":"footer.css","sourcesContent":[".footer {\n  height: 359px;\n  background-image: url(\"../images/footer.png\");\n  background-size: cover;\n}\n"]}
