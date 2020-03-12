@@ -1,0 +1,22 @@
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px; }
+  .info__heading {
+    max-width: 350px;
+    font-weight: 300;
+    font-size: 48px;
+    margin: 0; }
+  .info__link {
+    font-family: roboto;
+    font-weight: bold;
+    color: #0075ff; }
+  .info__text {
+    max-width: 500px; }
+
+@media screen and (max-width: 784px) {
+  .info {
+    grid-template-columns: 1fr;
+    grid-gap: 48px; } }
+
+/*# sourceMappingURL=info.css.map */

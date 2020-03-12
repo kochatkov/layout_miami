@@ -1,4 +1,17 @@
 .section {
-  padding: 104px calc(50% - 470%); }
+  padding: 104px calc(50% - 522px);
+  position: relative;
+  background-color: white; }
+  .section__heading {
+    left: 0;
+    right: 0;
+    top: -0.5em;
+    text-align: center; }
+  .section__content {
+    width: 100%; }
+
+@media screen and (max-width: 784px) {
+  .section {
+    padding: 50px 40px; } }
 
 /*# sourceMappingURL=section.css.map */

@@ -1,0 +1,24 @@
+.contact {
+  display: grid;
+  grid-template-columns: 152px 152px 413px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 100px; }
+  .contact__heading {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #9fadc2;
+    margin: 0; }
+  .contact__text {
+    color: #3e3e3e;
+    line-height: 2em;
+    margin-top: 8px; }
+
+@media screen and (max-width: 784px) {
+  .contact {
+    grid-template-columns: 1fr;
+    grid-gap: 14px; } }
+
+/*# sourceMappingURL=contact.css.map */
