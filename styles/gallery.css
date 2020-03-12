@@ -1,5 +1,7 @@
 .gallery__caption {
-  margin: 24px 0 40px; }
+  margin: 24px 0 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
 
 .gallery__btn {
   margin: 40px auto 0;

@@ -4,13 +4,17 @@
   grid-gap: 100px; }
   .info__heading {
     max-width: 350px;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 48px;
     margin: 0; }
   .info__link {
     font-family: roboto;
     font-weight: bold;
-    color: #0075ff; }
+    color: #0075ff;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+    .info__link:hover {
+      color: rgba(0, 117, 255, 0.5); }
   .info__text {
     max-width: 500px; }
 
