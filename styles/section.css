@@ -1,5 +1,11 @@
 .section {
-  padding: 104px calc(50% - 522px);
+  padding: 104px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
   background-color: white; }
   .section__heading {
@@ -10,7 +16,7 @@
   .section__content {
     width: 100%; }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 813px) {
   .section {
     padding: 50px 40px; } }
 

@@ -1,12 +1,12 @@
 .testimonials {
   display: grid;
   grid-gap: 160px;
-  grid-template-columns: repeat(3, 240px);
+  grid-template-columns: repeat(3, 1fr);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 813px) {
   .testimonials {
     grid-template-columns: 240px;
     grid-gap: 48px; } }

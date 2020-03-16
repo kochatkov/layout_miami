@@ -4,7 +4,7 @@
   background-image: url("../images/logo.png");
   background-size: cover; }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 813px) {
   .logo {
     width: 73px;
     height: 48px; } }

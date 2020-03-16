@@ -13,6 +13,8 @@
     -o-object-position: center;
        object-position: center;
     border-radius: 8px; }
+
+@media screen and (min-width: 813px) {
   .photos__right .photos__img:first-child {
     width: calc(67% - 10px); }
   .photos__right .photos__img:last-child {
@@ -20,6 +22,6 @@
   .photos__left .photos__img:first-child {
     width: calc(33% - 10px); }
   .photos__left .photos__img:last-child {
-    width: calc(67% - 10px); }
+    width: calc(67% - 10px); } }
 
 /*# sourceMappingURL=photos.css.map */

@@ -17,8 +17,10 @@
       color: rgba(0, 117, 255, 0.5); }
   .info__text {
     max-width: 500px; }
+  .info__text-bold {
+    font-weight: bold; }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 813px) {
   .info {
     grid-template-columns: 1fr;
     grid-gap: 48px; } }

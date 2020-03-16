@@ -1,6 +1,6 @@
 .contact {
   display: grid;
-  grid-template-columns: 152px 152px 413px;
+  grid-template-columns: 1fr 11fr 1fr;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -16,9 +16,10 @@
     line-height: 2em;
     margin-top: 8px; }
 
-@media screen and (max-width: 784px) {
+@media screen and (max-width: 813px) {
   .contact {
     grid-template-columns: 1fr;
-    grid-gap: 14px; } }
+    grid-gap: 14px;
+    justify-items: center; } }
 
 /*# sourceMappingURL=contact.css.map */
