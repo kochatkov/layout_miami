@@ -96,9 +96,20 @@
     height: 700px;
     width: 100%;
     z-index: 1;
-    opacity: 1;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear; }
+    -webkit-animation: 0.5s transparent;
+            animation: 0.5s transparent; }
+
+@-webkit-keyframes transparent {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes transparent {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
     @media screen and (min-width: 813px) {
       .nav__toggler:checked ~ .nav__list {
         display: none; } }
