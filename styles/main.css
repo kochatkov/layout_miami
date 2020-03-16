@@ -24,10 +24,11 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px;
+    justify-items: center;
     color: white;
     width: 100%; }
   .header__phone-small {
-    margin: 30px auto;
+    margin: 35px auto;
     position: relative;
     display: none;
     width: 18px;
@@ -258,7 +259,9 @@ h1,
 h2,
 h3 {
   margin: 0;
-  padding: 0;
+  padding: 0; }
+
+body {
   font-size: 16px;
   line-height: 1.5; }
 
