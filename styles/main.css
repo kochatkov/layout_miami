@@ -158,7 +158,11 @@ h1 {
     text-decoration: none;
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
-    outline: none; }
+    outline: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px; }
     .nav__link:before {
       content: "";
       position: absolute;
