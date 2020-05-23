@@ -209,7 +209,6 @@ h1 {
   .nav__toggler {
     display: none; }
   .nav__toggler:checked ~ .nav__list {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     left: 0;
@@ -292,7 +291,6 @@ body {
     height: 48px; } }
 
 .footer {
-  position: -webkit-sticky;
   position: sticky;
   bottom: 0;
   z-index: -1;

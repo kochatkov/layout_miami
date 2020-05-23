@@ -80,7 +80,6 @@
   .nav__toggler {
     display: none; }
   .nav__toggler:checked ~ .nav__list {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     left: 0;
